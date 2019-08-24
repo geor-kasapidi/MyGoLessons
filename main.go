@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
-	_ = DrawLissajousTo(os.Stdout)
+	DrawSurfaceTo(os.Stdout)
+	//_ = DrawLissajousTo(os.Stdout)
 }
